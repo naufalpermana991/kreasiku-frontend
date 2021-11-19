@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.btn-primary {
+  background-color: #1f4aa8;
+  border: none;
+}
+
+.btn-secondary {
+  background-color: #d8d8d8;
+  color: #1f4aa8;
+  border: none;
+  &:hover {
+    background-color: #b4b4b4;
+    color: #1f4aa8;
+  }
+}
+
+.navbar {
+  .navbar-brand {
+    img {
+      max-height: 40px;
+    }
+  }
+
+  .nav-item.active {
+    .nav-link {
+      color: #222534;
+      font-weight: 500;
+    }
+  }
+  .nav-item {
+    .nav-link {
+      color: #b8b9b9;
+    }
+  }
+}
+
+//jumbotron
+
+.jumbotron {
+  background-image: linear-gradient(
+      360deg,
+      #222534 0%,
+      rgba(34, 37, 52, 0) 100%
+    ),
+    url(../img/banner-2.jpeg);
+  height: 500px;
+  background-size: cover;
+
+  .display-4 {
+    margin-top: 5rem;
+    font-size: 40px;
+    font-weight: 300;
+  }
+
+  .lead {
+    font-size: 16px;
+  }
+
+  @media (min-width: 576px) {
+    .display-4 {
+      font-size: 50px;
+      font-weight: 300;
+    }
+    .lead {
+      font-size: 18px;
+    }
+  }
+}
+
+h4 {
+  font-weight: 600;
+  span {
+    color: #1f4aa8;
+  }
+}
+
+.card-body {
+  h5 {
+    color: #1f4aa8;
+  }
+  background-color: #f1f1f1;
+  border: none;
+}
+
+//banner
+.banner {
+  background-color: #222534;
+  border-radius: 5px;
+}
+
+.katalog-produk {
+  .card {
+    .card-img-top {
+      background-color: #f1f1f1;
+    }
+
+    .avatar {
+      img {
+        max-height: 40px;
+      }
+    }
+  }
+}
